@@ -1,0 +1,339 @@
+body{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 20px;
+}
+
+li{
+    list-style: none;
+    margin-right: 25px;
+}
+
+.primer-elemento{
+    font-size: 30px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.titular{
+    text-align: center;
+    margin-top: 200px;
+}
+
+h1{
+    font-size: 60px;
+    margin: 0;
+}
+
+h2{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+a{
+    font-size: 14px;
+    background: #5cb8ff;
+    padding: 20px 30px 20px 30px;
+    color: white;
+}
+
+header{
+    background: url(fondo.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.contenedor{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+/*Seccion sobre mi*/
+
+h3 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+.contenedor-sobremi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-parrafo-y-boton{
+    width: 42%;
+}
+
+.contenedor-parrafo-y-boton p{
+    font-size: 18px;
+}
+
+.contenedor-parrafo-y-boton a{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/*Seccion Servicios*/
+.contenedor-servicios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.servicio{
+    width: 25%;
+    padding: 50px 38px 50px 38px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.violeta{
+    background: #5055df;
+}
+
+.celeste{
+    background: #40a8fa;
+}
+
+.servicio h4{
+    font-size: 30px;
+    margin: 0;
+}
+
+.servicio img{
+    float: right;
+}
+
+.servicio p{
+    font-size: 18px;
+    height: 200px;
+}
+
+/*Seccion Mis trabajos*/
+span {
+    font-size: 80px;
+    color: blue;
+}
+
+.owl-nav{
+    text-align: center;
+}
+
+/*Seccion por que trabajar conmigo*/
+.contenedor-porque{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contenedor-porque h4{
+    margin: 0;
+    font-size: 20px;
+}
+
+.contenedor-porque p{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.porque-singular{
+    width: 28%;
+}
+
+#blog {
+    background: #f9fafc;
+    padding-top: 50px;
+}
+
+.contenedor-publicaciones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.publicacion{
+    width: 30%;
+    box-shadow: 1px 1px 14px #ccc;
+    padding-bottom: 20px;
+}
+
+#blog img{
+    width: 100%;
+}
+
+#blog h4{
+    font-size: 23px;
+    margin: 0;
+    padding: 20px;
+}
+
+#blog p{
+    color: #5a6159;
+    line-height: 24px;
+    font-size: 16px;
+    padding: 10px 20px 20px 20px;
+    margin: 0;
+}
+
+#blog a{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.publicacion-segunda img{
+    height: 266px;
+}
+
+#que-esperas{
+    background: linear-gradient(rgba(84,93,220,.94),rgba(96,171,245,.9));
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+
+#que-esperas h3{
+    font-size: 23px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+#que-esperas a{
+    padding: 15px 45px 15px 45px;
+    transition: 1s;
+}
+
+#que-esperas a:hover{
+    color: black;
+    transition: 1s;
+    transform: scale(1.1);
+    display: inline-block;
+}
+
+#whatsapp a{
+    background: none;
+    position: fixed;
+    top: 85%;
+    right: 1%;;
+}
+
+.menu-icon{
+    display: none;
+}
+
+@media (max-width: 800px){
+    nav {
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        background: #5cb8ff;
+        width: 100%;
+        display: none;
+    }
+
+    nav .lista {
+        flex-direction: column;
+        display: flex;
+    }
+    .menu-icon{
+        display: block;
+        width: 25px;
+    }
+
+    .menu-icon{
+        display: block;
+        width: 25px;
+    }
+
+    .titular{
+        margin-top: 90px;
+    }
+
+    h1{
+        font-size: 49px;
+    }
+
+    h2{
+        font-size: 19px;
+    }
+
+    .contenedor-sobremi{
+        flex-direction: column;
+    }
+
+    .contenedor-parrafo-y-boton{
+        width: 90%;
+    }
+
+    .contenedor-servicios{
+        flex-direction: column;
+    }
+
+    .servicio{
+        width: 72%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    h3{
+        font-size: 46px;
+    }
+
+    .contenedor-porque{
+        flex-direction: column;
+    }
+
+    .porque-singular{
+        width: 95%;
+    }
+    
+    .contenedor-publicaciones{
+        flex-direction: column;
+    }
+
+    .publicacion{
+        width: 85%;
+        margin: auto;
+    }
+
+    .imagen-sobremi{
+        width: 90%;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 900px){
+    header {
+        height: 53vh;
+    }
+
+    .imagen-sobremi{
+        width: 50%;
+    }
+
+    .servicio{
+        width: 44%;
+    }
+
+    .publicacion{
+        width: 62%;
+    }
+}
